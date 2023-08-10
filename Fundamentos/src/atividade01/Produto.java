@@ -12,7 +12,7 @@ public class Produto {
         double valorproduto = scanner.nextDouble();
         System.out.println("Digite a quantidade: ");
         int quantidade = scanner.nextInt();
-        System.out.println("Diite a forma de pagamento: Debito(D), Credito(C)");
+        System.out.println("Digite a forma de pagamento: Debito(D), Credito(C)");
         char pagamento = scanner.next().charAt(0);
 
         double valorFinal = 0;
