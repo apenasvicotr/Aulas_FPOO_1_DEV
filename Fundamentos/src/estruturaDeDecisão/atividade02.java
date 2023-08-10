@@ -9,9 +9,9 @@ public class atividade02 {
         System.out.println("Digite a largura do seu terreno: ");
         int largura = scanner.nextInt();
         System.out.println("Digite o comprimento do seu terreno: ");
-        int compimento = scanner.nextInt();
+        int comprimento = scanner.nextInt();
 
-        int areaTerreno = largura * compimento;
+        int areaTerreno = largura * comprimento;
         double valorFinal = 0;
         double valorMetro = 0;
 
