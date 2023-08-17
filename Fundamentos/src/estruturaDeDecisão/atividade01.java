@@ -2,7 +2,7 @@ package estruturaDeDecisão;
 
 import java.util.Scanner;
 
-public class atividade01 {
+public class Atividade01 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
