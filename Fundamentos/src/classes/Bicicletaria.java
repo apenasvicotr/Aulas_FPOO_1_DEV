@@ -16,14 +16,18 @@ public class Bicicletaria {
         System.out.println(caloiCross);
         
         //Carros
-        Carro gol = new Carro("Gol", "Volkswagem", "Cinza", 2013, 4, true);
+        Carro gol = new Carro("Gol", "Volswagem", CorEnum.CINZA, 2013, 4, true,0, false);
+        gol.trocarDeMarcha(MarchaEnum.PRIMEIRA_MARCHA);
         gol.andar(50);
+        gol.trocarDeMarcha(MarchaEnum.SEGUNDA_MARCHA);
         gol.andar(90);
         
         System.out.println(gol);
         
-        Carro civic = new Carro("Civic", "Honda", "Prata", 2005, 4, false);
+        Carro civic = new Carro("Civic", "Honda", CorEnum.PRATA, 2020, 4, true,0, false);
+        civic.trocarDeMarcha(MarchaEnum.PRIMEIRA_MARCHA);
         civic.andar(80);
+        civic.trocarDeMarcha(MarchaEnum.SEGUNDA_MARCHA);
         civic.andar(120);
         
         System.out.println(civic);
