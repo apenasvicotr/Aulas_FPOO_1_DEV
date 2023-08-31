@@ -19,15 +19,18 @@ public class Post implements ClassificaçãoPost{
     public String toString() {
         return "Post{" + "nomeUsuario=" + nomeUsuario + ", titulo=" + titulo + ", comentarios=" + comentarios + ", likes=" + likes + '}';
     }
-     
+    
+    @Override
     public int comum(int qtdeEstrelas){
         return UMA_ESTRELA;
     }
     
+    @Override
     public int legal(int qtdeEstrelas){
         return TRES_ESTRELAS;
     }
     
+    @Override
     public int superLegal(int qtdeEstrelas){
         return CINCO_ESTRELAS;
     }
